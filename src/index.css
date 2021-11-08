@@ -10,3 +10,31 @@ body {
   margin: 0;
   font-family: 'Open Sans', sans-serif;
 }
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+header {
+  padding: 1.5em 0;
+}
+
+.nav {
+  display: flex;
+  gap: 1em;
+}
+
+.nav p {
+  font-family: 'Poppins';
+}
