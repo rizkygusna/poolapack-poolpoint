@@ -4,13 +4,13 @@ import user from './assets/user.png';
 const Navbar = () => {
   return (
     <header>
-      <div className='container row'>
+      <div className='container d-flex'>
         <a className='logo' href='#'>
           <img src={logo} alt='conquering responsive logo' />
         </a>
         <nav className='nav'>
           <p>Admin</p>
-          <a href=''>
+          <a href='#'>
             <img src={user} alt='user icon' />
           </a>
         </nav>

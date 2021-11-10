@@ -8,7 +8,24 @@
 
 body {
   margin: 0;
+  padding: 0;
   font-family: 'Open Sans', sans-serif;
+  background-color: #ecf1f4;
+}
+
+h1 {
+  /* 48px */
+  font-size: 3rem;
+}
+
+h2 {
+  /* 40px */
+  font-size: 2.8rem;
+}
+
+h3 {
+  /* 24px */
+  font-size: 1.5rem;
 }
 
 img {
@@ -21,13 +38,18 @@ img {
   margin: 0 auto;
 }
 
-.row {
+.d-flex {
   display: flex;
   justify-content: space-between;
 }
 
 header {
+  background-color: #fff;
   padding: 1.5em 0;
+}
+
+header.row {
+  align-items: center;
 }
 
 .nav {
@@ -37,4 +59,24 @@ header {
 
 .nav p {
   font-family: 'Poppins';
+}
+
+.poolpoint {
+  width: 30%;
+}
+
+.poolpoint-detail {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  border-radius: 1em;
+  padding: 1em 2em;
+}
+
+.poolpoint-detail p {
+  color: #8c8ca1;
+}
+
+.poolpoint-amount {
+  margin-top: 1em;
 }
