@@ -109,10 +109,7 @@ main {
 .history-filter {
   display: flex;
   justify-content: space-between;
-}
-
-.history-filter p {
-  width: 20%;
+  margin: 1em 0;
 }
 
 .history-filter-category {

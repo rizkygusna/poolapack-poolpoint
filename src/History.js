@@ -1,4 +1,9 @@
+import { useState } from 'react';
+import DateRangePicker from '@wojtekmaj/react-daterange-picker';
+
 const History = () => {
+  const [value, onChange] = useState([new Date(), new Date()]);
+
   return (
     <section className='history'>
       <p className='bold'>Riwayat Transaksi</p>
@@ -8,7 +13,7 @@ const History = () => {
           <button>Point Masuk</button>
           <button>Point Keluar</button>
         </div>
-        <p>ini kalender</p>
+        <DateRangePicker onChange={onChange} value={value} />
       </div>
     </section>
   );
