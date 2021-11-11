@@ -4,7 +4,7 @@ import user from './assets/user.png';
 const Navbar = () => {
   return (
     <header>
-      <div className='container d-flex'>
+      <div className='container'>
         <a className='logo' href='#'>
           <img src={logo} alt='conquering responsive logo' />
         </a>

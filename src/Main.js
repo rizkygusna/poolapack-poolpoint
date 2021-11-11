@@ -1,10 +1,15 @@
 import Poolpoint from './Poolpoint';
+import History from './History';
 
 const Main = () => {
   return (
-    <main className='container'>
-      <Poolpoint />
-    </main>
+    <div className='container'>
+      <h2>poolpoint</h2>
+      <main>
+        <Poolpoint />
+        <History />
+      </main>
+    </div>
   );
 };
 

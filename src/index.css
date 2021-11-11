@@ -28,27 +28,38 @@ h3 {
   font-size: 1.5rem;
 }
 
+button {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 0.6em 1.2em;
+  border-radius: 0.4em;
+}
+
 img {
   max-width: 100%;
 }
 
+.bold {
+  font-weight: bold;
+}
+
 .container {
-  width: 80%;
-  max-width: 1200px;
+  width: 90%;
+  max-width: 1400px;
   margin: 0 auto;
 }
 
-.d-flex {
-  display: flex;
-  justify-content: space-between;
-}
+/* HEADER SECTION */
 
 header {
   background-color: #fff;
   padding: 1.5em 0;
 }
 
-header.row {
+header .container {
+  display: flex;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -61,11 +72,19 @@ header.row {
   font-family: 'Poppins';
 }
 
-.poolpoint {
-  width: 30%;
+/* MAIN SECTION */
+
+main {
+  display: flex;
+  gap: 1.5rem;
 }
 
-.poolpoint-detail {
+.poolpoint {
+  width: 40%;
+}
+
+.poolpoint-detail,
+.history {
   display: flex;
   flex-direction: column;
   background-color: #fff;
@@ -78,5 +97,26 @@ header.row {
 }
 
 .poolpoint-amount {
+  display: flex;
+  justify-content: space-between;
   margin-top: 1em;
+}
+
+.history {
+  width: 100%;
+}
+
+.history-filter {
+  display: flex;
+  justify-content: space-between;
+}
+
+.history-filter p {
+  width: 20%;
+}
+
+.history-filter-category {
+  display: flex;
+  justify-content: space-between;
+  gap: 1em;
 }
