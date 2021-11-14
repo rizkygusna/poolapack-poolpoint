@@ -28,6 +28,10 @@ h3 {
   font-size: 1.5rem;
 }
 
+hr {
+  opacity: 30%;
+}
+
 button {
   font-family: 'Open Sans', sans-serif;
   font-size: 1rem;
@@ -129,4 +133,51 @@ button.tertiary {
   color: #8c8ca1;
   background-color: #fff;
   border: 1px solid #8c8ca1;
+}
+
+.history-entry {
+  padding-top: 1em;
+}
+
+.history-entry span {
+  font-weight: normal;
+}
+
+.history-entry p {
+  margin: 0;
+}
+
+.history-entry-details {
+  display: flex;
+  justify-content: space-between;
+}
+
+.history-entry .details-type {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.5em;
+}
+
+.details-amount {
+  text-align: end;
+}
+
+.details-amount h3 {
+  color: #f9be00;
+  margin-bottom: 0;
+}
+
+.details-amount p {
+  font-size: 12px;
+  color: #8c8ca1;
+  margin: 0;
+}
+
+.details-amount span {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.details-amount img {
+  width: 23%;
 }
