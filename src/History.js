@@ -43,7 +43,7 @@ const History = () => {
           <button className='tertiary'>Point Masuk</button>
           <button className='tertiary'>Point Keluar</button>
         </div>
-        <DateRangePicker onChange={onChange} value={value} />
+        <DateRangePicker onChange={onChange} value={value} format='dd/MM/yyyy' />
       </div>
       {transactions.map((data) => (
         <div className='history-entry'>
