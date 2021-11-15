@@ -108,6 +108,10 @@ main {
   margin-top: 1em;
 }
 
+.poolpoint-amount h3 {
+  width: 80%;
+}
+
 .history {
   width: 100%;
 }
@@ -116,6 +120,8 @@ main {
   display: flex;
   justify-content: space-between;
   margin: 1em 0;
+  flex-wrap: wrap;
+  gap: 1em;
 }
 
 .history-filter-category {
@@ -180,4 +186,24 @@ button.tertiary {
 
 .details-amount img {
   width: 23%;
+}
+
+@media only screen and (max-width: 768px) {
+  main {
+    flex-wrap: wrap;
+  }
+  .poolpoint {
+    flex-basis: 100%;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .poolpoint-detail,
+  .history {
+    padding: 0.5em 0.8em;
+  }
+
+  nav p {
+    display: none;
+  }
 }
