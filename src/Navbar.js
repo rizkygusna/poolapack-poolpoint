@@ -5,12 +5,12 @@ const Navbar = () => {
   return (
     <header>
       <div className='container'>
-        <a className='logo' href='#'>
+        <a className='logo' href='./'>
           <img src={logo} alt='conquering responsive logo' />
         </a>
         <nav className='nav'>
           <p>Admin</p>
-          <a href='#'>
+          <a href='./'>
             <img src={user} alt='user icon' />
           </a>
         </nav>
